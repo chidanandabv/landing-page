@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to travel form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="con">
+    <h3>welcome to gsc trip form</h3>
+    <p>enter your detsil and submit</p>
+    <form action="index.php" method="post">
+        <input type="text" name="name" id="name" placeholder="enter your name">
+        <input type="text" name="gender" id="name" placeholder="enter your gender">
+        <input type="text" name="age" id="age" placeholder="enter your age">
+        <input type="email" name="email" id="email" placeholder="enter your email">
+        <input type="phone" name="phone" id="phone" placeholder="enter your phone number">
+        <textarea type="desc" id="desc" cols="30" rows="10" placeholder="enter something"></textarea>
+        <button class="btn">submit</button>
+        <button class="btn">reset</button>
+
+    </form>
+</div>
+    <script src="index.js"></script>
+    <!-- INSERT INTO `trip` (`name`, `gender`, `age`, `email`, `ph.no`, `others`, `date`) VALUES ('chidananda', 'male', '20', 'chidanandabv23@gmail.com', '8150903035', 'my first php messege', current_timestamp());  -->
+</body>
+</html>
